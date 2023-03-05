@@ -1,0 +1,84 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, tr, td, span, div { 
+    font-family: "Merriweather", "consolas", "san-serif"; 
+    /* AB 24.01.2002 Netscape 4.7 retter sig ikke efter overordnet angivelse f.eks. paa body,
+    derfor de mange tag-navne. */ 
+ }
+  
+ table.toptekst { 
+    font-size: 80%; 
+	background: #FFFFCC; 
+	color: black;
+	border-width: 0; 
+   width : 100%;
+ }
+ table.ugeplan {
+	width : 100%;
+}
+ tr {
+	vertical-align : top;
+}
+   
+ pre, code { font-family: monospace; }
+ div.center { text-align: center; }
+ div.right { text-align: right; }
+ div.bundtekst { font-size: 60%; text-align: right; }
+
+.out {	text-decoration : line-through; }
+.new {	background-color : yellow; 	color: black; }
+/* til ændringer i ugeplaner og lign. */
+
+.navbar-nav a {
+  color: grey;
+  text-decoration:none;
+}
+
+#nav-title {
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: large;
+}
+
+.navbar {
+   background-color: yellow;
+
+
+ }
+ 
+ a.glowing:hover, a.glowing:active {
+   color: orange !important;
+ }
+
+ a {
+  color: black !important;
+}
+
+a:visited {
+  color: gray !important;
+}
+
+.navbar-nav >  a:hover {
+  border-bottom: 2px solid orange;
+}
+.navbar-nav > li a:hover {
+  border-bottom: 2px solid orange;
+  
+
+}
+#container-spacing{
+
+  margin-top: 25px;
+}
+
+.navbar .transparent-dropdown {
+  background-color: yellow;
+}
+
+@media (max-width: 576px) {
+  .navbar .transparent-dropdown {
+    background-color: transparent;
+  }
+}
+#cv-btn [
+  
+]
+
